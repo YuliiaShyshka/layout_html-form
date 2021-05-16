@@ -45,7 +45,12 @@ const config = {
       ...basic,
       label: 'Email with placeholder',
       selectors: ['[type="email"][placeholder]'],
-    }
+    },
+    {
+      ...basic,
+      label: 'Number with value',
+      selectors: ['[type="number"][value]'],
+    },
   ],
 };
 
